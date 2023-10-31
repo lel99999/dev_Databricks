@@ -11,7 +11,7 @@ Databricks workspace and Notes
   - [Windows](https://databricks-bi-artifacts.s3.us-east-2.amazonaws.com/simbaspark-drivers/odbc/2.7.5/SimbaSparkODBC-2.7.5.1012-Windows-64bit.zip) <br/>
   - Installs into /opt/simba/spark <br/>
 
-#### ODBC Configuration odbc.ini <br/>
+#### ODBC Configuration odbc.ini 
 [Databricks_SQLWarehouse] <br/>
 Driver          = /opt/simba/spark/lib/64/libsparkodbc_sb64.so <br/>
 Description     = Simba Spark ODBC Driver DSN <br/>
