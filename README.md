@@ -1,6 +1,13 @@
 # dev_Databricks
 Databricks workspace and Notes
 
+#### CLI
+Legacy: <br/>
+- [https://docs.databricks.com/en/archive/dev-tools/cli/index.html](https://docs.databricks.com/en/archive/dev-tools/cli/index.html) <br/>
+
+Update: <br/>
+- [https://docs.databricks.com/en/dev-tools/cli/install.html](https://docs.databricks.com/en/dev-tools/cli/install.html) <br/>
+
 #### API Docs
 - [https://docs.databricks.com/en/reference/api.html](https://docs.databricks.com/en/reference/api.html) <br/>
 
