@@ -4,6 +4,7 @@ Databricks workspace and Notes
 #### CLI
 Legacy: <br/>
 - [https://docs.databricks.com/en/archive/dev-tools/cli/index.html](https://docs.databricks.com/en/archive/dev-tools/cli/index.html) <br/>
+- [https://docs.databricks.com/en/archive/dev-tools/dbx/dbx.html](https://docs.databricks.com/en/archive/dev-tools/dbx/dbx.html) <br/>
 
 Update: <br/>
 - [https://docs.databricks.com/en/dev-tools/cli/install.html](https://docs.databricks.com/en/dev-tools/cli/install.html) <br/>
