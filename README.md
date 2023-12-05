@@ -2,7 +2,7 @@
 Databricks workspace and Notes
 
 
-#### DBUTILs Reference
+#### DBUTILS Reference
 - [https://docs.databricks.com/en/dev-tools/databricks-utils.html](https://docs.databricks.com/en/dev-tools/databricks-utils.html) <br/>
 
 #### CLI
