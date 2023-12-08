@@ -42,4 +42,4 @@ UID             = token <br/>
 PWD             = <personal-access-token> <br/>
 ThriftTransport = 2 <br/>
 SSL             = 1 <br/>
-HTTPPath        = /sql/1.0/warehouses/fa12345678f8b014 <br/>
+HTTPPath        = /sql/1.0/warehouses/fa12345678xxxxxx <br/>
