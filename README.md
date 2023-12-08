@@ -22,6 +22,32 @@ Update: <br/>
 #### JDBC Link v2.6.34
 - [JDBC Driver](https://databricks-bi-artifacts.s3.us-east-2.amazonaws.com/simbaspark-drivers/jdbc/2.6.34/DatabricksJDBC42-2.6.34.1058.zip) <br/>
 - Install into /usr/lib64/databricks <br/>
+
+```
+//JAVA example code
+ 
+import java.sql.*;
+import java.util.Properties;
+
+public static void connectToDatabricksSQLWarehouse() {
+    String url = "jdbc:databricks://<hostname>.databricks.com:443;HttpPath=/sql/1.0/warehouses/xxxxxxxxxxxx";
+    Properties properties = new Properties();
+    properties.put("PWD", "<access-token>");
+
+    try (Connection connection = DriverManager.getConnection(url, properties)) {
+        if (connection != null) {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SHOW SCHEMAS");
+            while (resultSet.next()) {
+                System.out.println(resultSet.getString("databaseName"));
+            }
+        }
+    } catch (SQLException ex) {
+        ex.printStackTrace();
+    }
+}
+
+```
   
 #### ODBC Link v2.7.5
 - [ODBC Drivers](https://www.databricks.com/spark/odbc-drivers-download) <br/>
