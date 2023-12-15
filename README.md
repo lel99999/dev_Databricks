@@ -1,6 +1,13 @@
 # dev_Databricks
 Databricks workspace and Notes
 
+#### Install Databricks CLI (Linux)
+- [https://docs.databricks.com/en/dev-tools/cli/install.html](https://docs.databricks.com/en/dev-tools/cli/install.html) <br/>
+
+- Linux <br/>
+````
+$curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sudo sh
+````
 
 #### DBUTILS Reference
 - [https://docs.databricks.com/en/dev-tools/databricks-utils.html](https://docs.databricks.com/en/dev-tools/databricks-utils.html) <br/>
